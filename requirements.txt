@@ -1,0 +1,205 @@
+addict==2.4.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+alembic==1.6.5
+APScheduler==3.8.1
+arrow==1.2.3
+asgiref==3.4.1
+asn1crypto==0.24.0
+asttokens==2.0.5
+async-generator==1.10
+async-timeout==4.0.2
+asynctest==0.13.0
+attrs==19.3.0
+auto-tune==0.1.0
+backcall==0.2.0
+backports.zoneinfo==0.2.1
+binaryornot==0.4.4
+bleach==3.3.0
+boto3==1.12.22
+botocore==1.15.49
+certifi==2021.10.8
+certipy==0.1.3
+cffi @ file:///tmp/wheel/cffi-1.14.0-cp37-cp37m-linux_aarch64.whl
+chardet==3.0.4
+charset-normalizer==2.0.12
+click==8.0.3
+cloudpickle==2.0.0
+colorama==0.4.4
+conda==4.5.12
+configparser==5.0.2
+cookiecutter==2.1.1
+cryptography==3.4.7
+cycler==0.11.0
+Cython @ file:///tmp/wheel/Cython-0.29.14-cp37-cp37m-linux_aarch64.whl
+decorator==4.4.1
+defusedxml==0.7.1
+Django==3.2.9
+docutils==0.15.2
+easydict==1.9
+entrypoints==0.3
+ephemeral-port-reserve==1.1.4
+esdk-obs-python==3.21.4
+Flask==2.0.2
+fonttools==4.28.5
+frozenlist==1.3.0
+future==0.18.2.post20200723173923
+futures==3.1.1
+gast==0.5.2
+gitdb==4.0.9
+GitPython==3.1.26
+google-pasta==0.2.0
+greenlet==1.1.0
+grpcio==1.41.1
+grpcio-tools @ file:///tmp/wheel/grpcio_tools-1.26.0-cp37-cp37m-linux_aarch64.whl
+gunicorn==20.1.0
+h5py @ file:///tmp/wheel/h5py-2.10.0-cp37-cp37m-linux_aarch64.whl
+hccl==0.1.0
+huaweicloudsdkcore==3.0.50
+idna==2.10
+image==1.5.28
+importlib-metadata==4.8.2
+ipykernel==5.2.0
+ipympl==0.8.7
+ipython==7.29.0
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+itsdangerous==2.0.1
+jedi==0.18.0
+Jinja2==3.0.3
+jinja2-time==0.2.0
+jmespath==0.10.0
+joblib==1.1.0
+json5==0.9.6
+jsonschema==3.2.0
+jupyter-client==7.0.6
+jupyter-core==4.9.1
+jupyter-kernel-gateway==2.4.1
+jupyter-server-proxy==1.5.0
+jupyter-telemetry==0.1.0
+jupyterhub==1.1.0
+jupyterlab==2.0.0
+jupyterlab-git==0.24.0
+jupyterlab-pygments==0.1.2
+jupyterlab-server==1.0.9
+jupyterlab-widgets==1.0.2
+keyboard==0.13.5
+kfac==0.2.0
+kiwisolver @ file:///tmp/wheel/kiwisolver-1.1.0-cp37-cp37m-linux_aarch64.whl
+lxml @ file:///tmp/wheel/lxml-4.4.2-cp37-cp37m-linux_aarch64.whl
+ma-cau==1.1.1
+ma-cau-adapter==1.1.1
+ma-cli @ http://cnsouth222-modelarts-sdk.obs.cn-south-222.ai.pcl.cn/modelarts/ma-cli/ma_cli-latest-py3-none-any.whl
+Mako==1.1.4
+MarkupSafe==2.0.1
+marshmallow==3.14.0
+matplotlib @ file:///tmp/wheel/matplotlib-3.1.2-cp37-cp37m-linux_aarch64.whl
+matplotlib-inline==0.1.3
+mindinsight @ file:///tmp/me/mindinsight-1.5.0-py3-none-any.whl
+mindspore-ascend @ file:///tmp/me/mindspore_ascend-1.5.1-cp37-cp37m-linux_aarch64.whl
+mistune==0.8.4
+mmcv @ file:///tmp/wheel/mmcv-0.2.14-cp37-cp37m-linux_aarch64.whl
+modelarts @ http://cnsouth222-modelarts-sdk.obs.cn-south-222.ai.pcl.cn/modelarts-latest-py2.py3-none-any.whl
+modelarts-core==0.0.37
+modelarts-example==0.0.6
+modelarts-lease-backend==0.1.19
+modelarts-metrics-backend==0.0.15
+modelarts-resource-manager==0.0.2
+modelarts-resource-monitor==0.1.7
+modelarts-upload-files==0.0.10
+moxing-framework @ file:///tmp/me/moxing_framework-2.0.0.rc2.4b57a67b-py2.py3-none-any.whl
+mpmath==1.2.1
+multidict==5.2.0
+nbclient==0.5.3
+nbconvert==6.1.0
+nbdime==2.1.1
+nbformat==5.1.3
+nest-asyncio==1.5.1
+notebook==6.0.3.post20211228115015
+notebook-mindinsight-backend==0.0.6
+npu-bridge==1.15.0
+npu-device==0.1
+numexpr @ file:///tmp/wheel/numexpr-2.7.1-cp37-cp37m-linux_aarch64.whl
+numpy @ file:///tmp/wheel/numpy-1.17.5-cp37-cp37m-linux_aarch64.whl
+oauthlib==3.1.1
+opencv-python @ file:///tmp/wheel/opencv_python-4.2.0.34-cp37-cp37m-linux_aarch64.whl
+packaging==21.2
+pamela==1.0.0
+pandas @ file:///tmp/wheel/pandas-1.1.3-cp37-cp37m-linux_aarch64.whl
+pandocfilters==1.4.3
+parso==0.8.2
+pathlib2==2.3.6
+pathtools==0.1.2
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///tmp/wheel/Pillow-7.0.0-cp37-cp37m-linux_aarch64.whl
+poyo==0.5.0
+prettytable==2.1.0
+prometheus-client==0.11.0
+prompt-toolkit==3.0.22
+protobuf==3.19.1
+psutil @ file:///tmp/wheel/psutil-5.7.0-cp37-cp37m-linux_aarch64.whl
+ptyprocess==0.7.0
+pycocotools @ file:///tmp/wheel/pycocotools-2.0.0-cp37-cp37m-linux_aarch64.whl
+pycosat==0.6.3
+pycparser==2.21
+pycryptodome==3.10.1
+pycurl==7.43.0.6
+pyflakes==2.2.0
+Pygments==2.10.0
+pyOpenSSL==18.0.0
+pyparsing==2.4.7
+pyrsistent==0.18.0
+PySocks==1.6.8
+python-dateutil==2.8.2
+python-editor==1.0.4
+python-json-logger==2.0.1
+python-slugify==6.1.2
+pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+PyYAML @ file:///tmp/wheel/PyYAML-5.3.1-cp37-cp37m-linux_aarch64.whl
+pyzmq==22.3.0
+requests==2.23.0
+requests-futures==1.0.0
+ruamel.yaml.clib==0.2.4
+ruamel_yaml==0.15.64
+s3transfer==0.3.7
+schedule-search==0.0.1
+scikit-learn @ file:///tmp/wheel/scikit_learn-0.24.0-cp37-cp37m-linux_aarch64.whl
+scipy @ file:///tmp/me/scipy-1.5.4-cp37-cp37m-linux_aarch64.whl
+semantic-version==2.8.5
+Send2Trash==1.7.1
+simpervisor==0.4
+six==1.16.0
+smmap==5.0.0
+SQLAlchemy==1.4.20
+sqlparse==0.4.2
+sympy==1.4
+tables @ file:///tmp/wheel/tables-3.6.1-cp37-cp37m-linux_aarch64.whl
+tabulate==0.8.9
+te==0.4.0
+tenacity==8.0.1
+tensorflow-probability==0.9.0
+terminado==0.10.1
+terminaltables==3.1.0
+testpath==0.5.0
+text-unidecode==1.3
+threadpoolctl==3.0.0
+topi==0.4.0
+tornado==6.1
+tqdm==4.62.3
+traitlets==5.1.1
+treelib==1.6.1
+typing-extensions==3.10.0.2
+tzdata==2021.5
+tzlocal==4.1
+urllib3==1.26.7
+watchdog==0.10.3
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug==2.0.2
+widgetsnbextension==3.5.2
+XlsxWriter==3.0.2
+yapf==0.31.0
+yarl==1.7.2
+zipp==3.6.0
