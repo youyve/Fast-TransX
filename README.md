@@ -1,6 +1,23 @@
 # 目录
 
-[toc]
+- [目录](#目录)
+- [1. 模型介绍](#1-模型介绍)
+  - [1.1. 网络模型结构](#11-网络模型结构)
+  - [1.2. 数据集](#12-数据集)
+- [2. 代码目录结构说明](#2-代码目录结构说明)
+  - [2.1. 脚本参数](#21-脚本参数)
+- [3. 自验结果](#3-自验结果)
+  - [3.1. 自验环境](#31-自验环境)
+  - [3.2. 训练超参数](#32-训练超参数)
+  - [3.3. 训练](#33-训练)
+    - [3.3.1. 训练之前](#331-训练之前)
+    - [3.3.2. 启动训练脚本](#332-启动训练脚本)
+  - [3.4. 评估过程](#34-评估过程)
+    - [3.4.1. 启动评估脚本](#341-启动评估脚本)
+    - [3.4.2. 评估精度结果](#342-评估精度结果)
+- [4. 参考资料](#4-参考资料)
+  - [4.1. 参考论文](#41-参考论文)
+  - [4.2. 参考git项目](#42-参考git项目)
 
 # [1. 模型介绍](#contents)
 
@@ -31,16 +48,6 @@ TransE、TransH、TransR、TransD是知识图谱嵌入的模型。此模型的"�
 - [WN18RR (Wordnet)](https://github.com/thunlp/OpenKE/tree/OpenKE-PyTorch/benchmarks/WN18RR)
 - [FB15K237 (Freebase)](https://github.com/thunlp/OpenKE/tree/OpenKE-PyTorch/benchmarks/FB15K237)
 
-## [1.3. 代码提交地址](contents)
-
-https://git.openi.org.cn/youlz/Fast-TransX.git
-
-## [1.4. 其它](contents)
-
-日志文件保存在 **logs.zip** 中
-
-
-
 # [2. 代码目录结构说明](#contents)
 
 ```text
@@ -56,8 +63,8 @@ https://git.openi.org.cn/youlz/Fast-TransX.git
 │   ├── transR_FB15K_config.yaml
 │   └── transR_WN18_config.yaml
 ├── dataset   # 数据集
-│	├── FB15K
-│	└── WN18
+│ ├── FB15K
+│ └── WN18
 ├── model_utils  # Model Arts通用工具
 │   ├── config.py
 │   ├── device_adapter.py
@@ -231,10 +238,6 @@ bash make.sh
 训练结果将会存放在 **./train-outputs** 目录下
 如果使用 Shell 脚本, 日志信息将会重定向到 **./train-logs** 目录下
 
-### [3.3.3. 训练精度结果](contents)
-
-训练日志文件储存在提交的 **train-logs** 目录下。
-
 ## [3.4. 评估过程](#contents)
 
 ### [3.4.1. 启动评估脚本](contents)
@@ -258,8 +261,6 @@ bash scripts/run_eval_npu.sh [DATASET_ROOT] [DATASET_NAME] [MODEL_NAME] [CKPT_PA
 > 使用该名称将选择 ./configs 目录中相应的配置文件。
 
 #### [3.4.2. 评估精度结果](contents)
-
-评估日志文件储存在提交的 **eval-output** 目录下。
 
 |                   |         |         |         |         |          |          |          |          |
 | ----------------- | ------- | ------- | ------- | ------- | -------- | -------- | -------- | -------- |
